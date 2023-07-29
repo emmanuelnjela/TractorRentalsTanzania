@@ -1,5 +1,5 @@
 import { Footer } from "../components/Footer";
-import { MainSection } from "../components/MainSection";
+import { MainSection } from "../components/HomeMainSection";
 import { NavBar } from "../components/NavBar";
 
 function HomePage() {
