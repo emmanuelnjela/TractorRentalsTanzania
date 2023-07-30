@@ -1,4 +1,4 @@
-import heroImage from "../assets/images/image 53.png";
+import heroImage from "../assets/images/tractor-1.jpg";
 
 export function MainSection() {
   return (
@@ -7,18 +7,17 @@ export function MainSection() {
       <img
         src={heroImage}
         alt=""
-        className="w-full h-full object-cover object-top absolute z-0 top-0"
+        className="w-full h-full object-cover object-center absolute z-0 top-0"
       />
-      <div className=" px-5 py-20 relative z-10 h-full m-auto grid gap-y-4">
-        <h1 className="text-white lg:text-center text-[min(10vw,80px)] font-bold">
-          You got the travel plans, we got the travel vans
+      <div className=" px-5 py-[5vw] relative z-10 h-full m-auto grid gap-y-4">
+        <h1 className="text-white lg:text-center text-[min(10vw,80px)] font-bold leading-snug">
+        Your Fields, Our Tractors, Let's Cultivate Together!
         </h1>
         <p className="text-white font-semibold lg:text-center lg:text-xl lg:max-w-2xl lg:m-auto">
-          Add adventure to your life by joining the #vanlife movement. Rent the
-          perfect van to make your perfect road trip.
+        Fuel Growth in Your Fields with Our Reliable Tractors. Cultivate Success, Together!
         </p>
-        <button className="text-white font-semibold w-full lg:w-fit h-10 rounded-md bg-orange-500 lg:px-5 lg:m-auto">
-          Find your van
+        <button className="text-white font-semibold w-full lg:w-fit h-10 rounded-md bg-goldenrod lg:px-5 lg:m-auto">
+          Find your tractor
         </button>
       </div>
     </div>

@@ -1,32 +1,34 @@
-import AboutUsImg from "../assets/images/image 55.png";
+import AboutUsImg from "../assets/images/tractor-2.jpg";
 
 export function AboutMainSection() {
   return (
     <div className="main-section ">
-      <div className="lg:h-[50vh] overflow-hidden object-cover object-top">
-      <img src={AboutUsImg}  alt="" />
+      <div className="lg:h-[50vh] overflow-hidden object-cover object-bottom">
+        <img src={AboutUsImg} alt="" />
       </div>
       <div className="p-5 grid gap-y-4">
         <h1 className="font-bold text-xl">
-          Don't squeeze in a sedan when you could relax in a van.
+        Don't settle for cramped spaces; upgrade to the comfort of a tractor.
         </h1>
         <p className="">
-          Our misssion is to enliven your road trip with the perfect travel van
-          rental. Our vans are recertified before each trip to ensure your
-          travel plans can go off without a hitch.
-          <span className="">(Hitch costs extra 🙂)</span>
+          Our mission is to empower Tanzanian farmers with top-notch tractor
+          rentals, breathing life into their agricultural journey. Each tractor
+          is meticulously maintained, ensuring seamless farm plans with every
+          use.
+          <span className="">(Watch your crops flourish! 🌱)</span>
         </p>
 
         <p className="">
-          Our team is full of vanlife enthusiasts who know firsthand the magic
-          of touring the world on 4 wheels.
+          Our team is comprised of passionate tractor enthusiasts who have
+          experienced firsthand the transformative power of cultivating
+          Tanzania's lands on wheels of innovation.
         </p>
 
-        <div className="bg-orange-300 p-5 rounded-sm ">
-          <h1 className="font-bold">Your destination is waiting.</h1>
-          <h1 className="font-bold pb-4">Your van is ready</h1>
-          <button className="bg-gray-950 text-white font-bold rounded-lg p-3">
-            Explore our vans
+        <div className="bg-dark-green p-5 rounded-md ">
+          <h1 className="font-bold text-white">Your harvest awaits.</h1>
+          <h1 className="font-bold text-white pb-4">Your tractor is ready.</h1>
+          <button className="bg-goldenrod text-white font-bold rounded-lg p-3">
+            Explore our Tractor
           </button>
         </div>
       </div>
