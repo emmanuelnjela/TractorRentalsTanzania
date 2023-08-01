@@ -1,27 +1,36 @@
-# React + TypeScript + Vite
+# Tanzania Tractor Rentals - Your Agricultural Partner 🌱
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Live Demo](https://fanciful-arithmetic-bb5219.netlify.app)
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Welcome to Tanzania Tractor Rentals, your one-stop solution for easy access to high-quality tractor rentals in Tanzania. This web application is designed to empower farmers by providing efficient and reliable tractor rentals, enabling them to enhance agricultural productivity and prosperity.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Seamless Tractor Selection: Browse through a diverse range of tractor models and specifications to find the perfect match for your farm needs.
 
-- Configure the top-level `parserOptions` property like this:
+- Easy Rental Process: Rent a tractor hassle-free with our user-friendly rental request system.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- Farming Community Forum: Connect with fellow farmers, share experiences, and exchange valuable insights in our community forum.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Technologies Used
+
+- Frontend:
+  - Vite
+  - React
+  - React Router 6
+  - TypeScript
+  - Tailwind CSS
+
+- Backend (API - not part of this repository):
+  - Node.js
+  - Express
+  - MongoDB
+
+## Installation and Usage
+
+1. Clone this repository.
+
+```bash
+git clone https://github.com/emmanuelnjela/TanzaniaRractorRentals.git
